@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var array1 = [[], [],[]];
+        var array2 = [[], [],[]];
+        var sum    = [[], [],[]];
+
+for (var i = 0; i<3 ; i++){
+     for(var j = 0; j<3 ; j++){
+         array1[i][j] = prompt('Enter array1');
+     }
+      //for displaying matrix    
+ }
+for (var i = 0; i<3 ; i++){
+    document.write("|");
+     for(var j = 0; j<3 ; j++){ 
+             document.write(array1[i][j] + "   ");
+         }
+         document.write("|");
+         document.write("<br>")
+         
+ }
+ 
+     
+ for (var i = 0; i<3 ; i++){
+     for(var j = 0; j<3 ; j++){
+         array2[i][j] = prompt('Enter array2');
+     }
+     
+     //for displaying matrix    
+ }
+for (var i = 0; i<3 ; i++){
+    document.write("|");
+     for(var j = 0; j<3 ; j++){ 
+             document.write(array2[i][j] + "   ");
+         }
+         document.write("|");
+         document.write("<br>")
+         
+ }
+ for (var i = 0; i<3 ; i++){
+     for(var j = 0; j<3 ; j++){
+         sum[i][j] = +array1[i][j] + +array2[i][j];}
+     }
+     for (var i = 0; i<3 ; i++){
+    document.write("|");
+     for(var j = 0; j<3 ; j++){ 
+             document.write(sum[i][j] + "   ");
+         }
+         document.write("|");
+         document.write("<br>")
+ }
+    </script>
+</body>
+</html>
